@@ -19,7 +19,7 @@ body {
     flex-direction: column;
 }
 
-/* Header */
+
 header {
     background: #142d4e;
     color: white;
@@ -38,7 +38,7 @@ header p {
     font-size: 15px;
 }
 
-/* Main sections */
+
 section {
     background: white;
     margin: 8px auto;
@@ -62,7 +62,7 @@ section p {
     margin: 3px 0;
 }
 
-/* Skills */
+
 ul {
     padding-left: 22px;
 }
@@ -72,12 +72,12 @@ li {
     margin: 2px 0;
 }
 
-/* Hover effect */
+
 section:hover {
     box-shadow: 0 3px 10px #aab8c8;
 }
 
-/* Footer */
+
 footer {
     background: #142d4e;
     color: white;
@@ -88,7 +88,7 @@ footer {
     flex-shrink: 0;
 }
 
-/* Animation */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -100,7 +100,7 @@ footer {
     }
 }
 
-/* Smaller screens */
+
 @media (max-width: 600px) {
     header h1 {
         font-size: 23px;
